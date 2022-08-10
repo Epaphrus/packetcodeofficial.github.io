@@ -994,12 +994,22 @@ iframe{
     .intro-text{
         font-size: 100%;
     }
+
+    .left-activity img{
+        height: 100%;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 552px) {
     .intro-text{
         font-size: 170%;
-    }    
+    }   
+    
+    .left-activity img{
+        height: 100%;
+        width: 100%;
+    }
 }
 
 
@@ -1010,6 +1020,11 @@ iframe{
 
     .left-activity{
         display: flex;
+    }
+
+    .left-activity img{
+        height: 100%;
+        width: 100%;
     }
 }
 /*-------End of contact page------*/
