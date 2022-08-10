@@ -1003,11 +1003,11 @@ iframe{
 
 @media screen and (max-width: 552px) {
     .intro-text{
-        font-size: 170%;
+        font-size: 165%;
     }   
     
     .left-activity img{
-        height: 200px;
+        height: 150px;
         width: 100%;
     }
 }
