@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bec97e0795.js" crossorigin="anonymous"></script>
+    <title>Ruiru Mt.Hermon-Academy</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <div  id="sm-nav">     
+        <nav style="margin-top: 80px">
+            <div id="menu-close-btn" onclick="closeMenu()" style="cursor: pointer;"><i class="fa-solid fa-close"></i></div>
+            <!--Navigation content here-->
+              <ul class="nav_links" id="nav_links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="management.html">Management</a></li>
+                    <!-- <li><a href="news & events.html">News & Events</a></li> -->
+                    <li><a href="gallery.html">Gallery</a></li>                
+                </ul>
+        </nav>
+    </div>
+    <header class="home-header">
+        <img class="logo" src="images/RMH ACADEMY LOGO.jpeg" alt="logo">
+        <nav id="lg-nav">
+            <!--Navigation content here-->
+              <ul class="nav_links" id="nav_links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="management.html">Management</a></li>
+                    <!-- <li><a href="news & events.html">News & Events</a></li> -->
+                    <li><a href="gallery.html">Gallery</a></li>                
+                </ul>
+        </nav>
+        
+        <a class="cta" href="contact.html"><button>Contact us</button></a>
+        <div id="menu-open-btn" onclick="openMenu()" style="cursor: pointer;"><i class="fa-solid fa-bars"></i></div>
+        <script defer>
+            const Menu = document.getElementById("sm-nav");
+    
+            function openMenu () {Menu.classList.add("open")}
+            function closeMenu () {Menu.classList.remove("open")}
+        
+            
+        </script>
+    </header>
+    <div id="gallery-top-nav">
+        <h4>Gallery</h4>
+    </div>
+    <section id="main-gallery-container">
+        <div class="gallery-container">
+            <div class="image-container">
+                <div class="item">
+                    <img src="images/class.jpeg" alt="Classes">
+                    <span class="caption">Classes</span>
+                </div>
+                <div class="item">
+                    <img src="images/Tea and snacs.jpeg" alt="Pupils having tea and snacks">
+                    <span class="caption">Pupils having tea and snacks</span>
+                </div>
+                <div class="item">
+                    <img src="images/Happy birthday.jpeg" alt="Celebrating Happy Birthday for Divya">
+                    <span class="caption">Celebrating Happy Birthday for Divya</span>
+                </div>
+                <div class="item">
+                    <img src="images/Sharing a meal.jpeg" alt="Sharing day">
+                    <span class="caption">Sharing day</span>
+                </div>
+                <div class="item">
+                    <img src="images/Painting.jpeg" alt="Playgroup Painting Project">
+                    <span class="caption">Playgroup painting project</span>
+                </div>
+                <div class="item">
+                    <img src="images/Playing Facility.jpeg" alt="Playing Facilities">
+                    <span class="caption">Playing facilities</span>
+                </div>
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="footer-main">
+             <div class="footer-left">
+                 <article class="footer-article">
+                     <p class="footer-article-paragraph">
+                         Ruiru Mount Hermon is an <br>
+                         outstanding Nursery & <br>
+                         Primary school targeting <br>
+                         educational System, <br>
+                         helping Kids to read and <br>
+                         write and to establish <br>
+                         strong identity.
+                     </p>
+                 </article>
+             </div>
+             <div class="footer-centre">
+                 <article class="find-us">
+                     <ul>
+                        <h3>Links</h3>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="management.html">Management</a></li>
+                        <!-- <li><a href="news & events.html">News & Events</a></li> -->
+                        <li><a href="gallery.html">Gallery</a></li>                
+                    </ul>
+                 </article>
+             </div>
+             <div class="footer-right"> 
+                <h3 >Find us</h3> 
+                    <address class="footer-address" id="footer-address">                    
+                        <a href="https://www.facebook.com/RUIRU-MOUNT-Hermon-Academy-105285892183806" class="footer-social" target="_blank"><i class="fa-brands fa-facebook"> Facebook</i></a> 
+                        <a href="" class="footer-social"><i class="fa-brands fa-twitter"> Twitter</i></a> 
+                        <a href="https://www.youtube.com/channel/UCI_Gh7j8NE06ZHZeLeH8vBA" class="footer-social" target="_blank"><i class="fa-brands fa-youtube"> Youtube</i></a>
+                        <a href="mailto:ruiruhermon@gmail.com? subject=subject text" class="footer-social"><i class="fa-solid fa-envelope"></i> Email</a> 
+                        <a href="" class="footer-social" id="fa-phone"><i class="fa-solid fa-phone"> 
+                            &nbsp; 0723 832 463 <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0726 561 933</i>
+                        </a>                    
+
+                    </address>     
+             </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright"> <span>copyright &copy;Mount Hermon Academy <script> document.write(new Date().getFullYear()); </script> - developed by
+                <b><a href="" target="_blank"> <br> MAX designs</a></b>
+              </span>
+            </div>
+        </div>
+     </footer>
+</body>
+</html>
