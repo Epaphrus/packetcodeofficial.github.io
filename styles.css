@@ -795,7 +795,7 @@ iframe{
     height: 50%;
 }
 
-@media screen and (max-width: 821px){
+@media screen and (max-width: 821.5px){
     .column, input[type=submit]{
         width: 100%;
         margin-top: 0;
@@ -852,7 +852,7 @@ iframe{
     }
 
     .intro-text{
-        font-size: 210%;
+        font-size: 250%;
     }
 
     .right-activity{
@@ -990,6 +990,16 @@ iframe{
     .hero-image{
         height: 40%;
     }
+
+    .intro-text{
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .intro-text{
+        font-size: 170%;
+    }    
 }
 
 
