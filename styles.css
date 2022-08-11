@@ -872,7 +872,7 @@ iframe{
     .schools img{
         /* padding-left: 10%; */
         /* padding-right: 10%; */
-        width: 90%;
+        width: 80%;
         border-radius: 50%;
         justify-content: center;
         margin-left: 10%;
@@ -880,9 +880,10 @@ iframe{
 
     #schools-main h4{
         width: 80%;
-        text-align: center;
-        padding-top: 8px;
+        padding-top: 10px;
         margin-bottom: 10px;
+        text-align: center;
+        margin-left: 10%;
     }
 
     .footer-main{
