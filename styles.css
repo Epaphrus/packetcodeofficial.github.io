@@ -78,7 +78,7 @@ nav{
 
 header{
     background-color: #ffff;
-    height: 80px;
+    height: 8%;
     position: sticky;
     top: 0;
     left: 0;
@@ -802,6 +802,15 @@ iframe{
         margin-top: 0;
     }
 
+    .logo {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    header{
+        height: 2%;
+    }
+
     #lg-nav {
         display: none;
 
@@ -843,7 +852,7 @@ iframe{
     }
 
     .hero-image{
-        height: 30%;
+        height: 20%;
         width: 99%;
         
     }
