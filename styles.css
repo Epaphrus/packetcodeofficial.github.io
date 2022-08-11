@@ -187,8 +187,8 @@ header{
 
 #schools-main{
     background-color: #F2F2F2;
-    border-top: 1px solid #373c9210;
-    border-bottom: 1px solid #373c9210;
+    /* border-top: 1px solid #373c9210; */
+    /* border-bottom: 1px solid #373c9210; */
     padding-bottom: 30px;
 }
 
@@ -198,8 +198,8 @@ header{
     font-family: "Montserrat", sans-serif;
     font-weight: 750;
     font-size: 30px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
 
 #schools-main h4{
@@ -212,18 +212,19 @@ header{
 .schools{
     font-family: "Poppins", sans-serif;
     padding-top: 5px;
-    width: 100%;
+    width: 90%;
     display: flex;
+    margin-left: 5%;
+    padding-right: 5%;
     justify-content: center;
-    padding-left: 5%;
 }
 
 .schools img{
     width: 80%;
     height: auto;
     border-radius: 50%;
-    padding-left: 10%;
-    padding-right: 10%;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
 }
 
 /*--------FOOTER SECTION-------*/
@@ -863,17 +864,18 @@ iframe{
 
     .schools{
         flex-direction: column;
+        align-content: center;
+        /* margin-left: 10%; */
+        /* display: block; */
     }
 
     .schools img{
-        padding-left: 10%;
-        padding-right: 10%;
-        width: 80%;
+        /* padding-left: 10%; */
+        /* padding-right: 10%; */
+        width: 90%;
         border-radius: 50%;
-    }
-
-    #schools-main h2{
-        text-align: center;
+        justify-content: center;
+        margin-left: 10%;
     }
 
     #schools-main h4{
