@@ -1024,6 +1024,10 @@ iframe{
         height: 30%;
     }
 
+    .intro-text{
+        font-size: 160%;
+    }  
+
     .left-activity img{
         height: 100%;
         width: 100%;
