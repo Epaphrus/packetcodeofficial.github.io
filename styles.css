@@ -324,13 +324,13 @@ header{
 #about-us{
     display: flex;
     background-color: #344ee0;
-    height: 10%;
+    height: 100%;
 }
 
 .about-us h4{
     color: rgb(255, 255, 255);
-    padding: 20px;
-    padding-left: 50px;
+    padding: 1%;
+    padding-left: 5%;
     font-size: xx-large;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
@@ -461,20 +461,21 @@ header{
 .management1{
     display: flex;
     background-color: #344ee0;
-    height: 10%;
+    height: 100%;
 }
 
 .Management-all{
     background-color: #f2f2f2;
 }
 
+
 .management1 h4{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     font-size: xx-large;
-    padding: 20px;
-    padding-left: 30px;
+    padding: 1%;
+    padding-left: 5%;
 }
 
 .management-header{
@@ -636,14 +637,14 @@ header{
 #gallery-top-nav{
     display: flex;
     background-color: #344ee0;
-    height: 10%;
+    height: 100%;
 }
 
 #gallery-top-nav h4{
     display: flex;
     color: white;
-    padding: 20px;
-    padding-left: 50px;
+    padding: 1%;
+    padding-left: 5%;
     font-size: xx-large;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
@@ -807,10 +808,6 @@ iframe{
         max-height: 50px;
     }
 
-    header{
-        height: 7%;
-    }
-
     #lg-nav {
         display: none;
 
@@ -959,6 +956,12 @@ iframe{
 
     .Management-all h5{
         text-align: center;
+    }
+
+    .Management-all h5, p{
+        width: 94%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
 
     .main-management{
