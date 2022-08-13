@@ -1027,6 +1027,14 @@ iframe{
         height: 100%;
         width: 100%;
     }
+
+    .vision img{
+        width: 410px;
+    }
+
+    .mission img{
+        width: 410px;
+    }
 }
 
 
