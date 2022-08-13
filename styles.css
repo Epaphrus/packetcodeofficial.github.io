@@ -403,7 +403,7 @@ header{
 
 .mission-text p{
     color: #2C3333;
-    font-size: 35px;
+    font-size: 2.5em;
     text-transform: capitalize;
     margin-bottom: 25px;
     letter-spacing: 2px;
@@ -446,7 +446,7 @@ header{
 
 .vision-text p{
     color: #2C3333;
-    font-size: 35px;
+    font-size: 2.5em;
     text-transform: capitalize;
     margin-bottom: 25px;
     letter-spacing: 2px;
@@ -929,6 +929,10 @@ iframe{
         width: 100%;
     }
 
+    .mission-text p{
+        font-size: 1.5em;
+    }
+
     .vision{
         flex-direction: column;
         width: 100%;
@@ -938,6 +942,10 @@ iframe{
         text-align: left;
         width: 100%;
         margin-bottom: 0;
+    }
+
+    .vision-text p{
+        font-size: 1.5em;
     }
 
     .the-founders{
