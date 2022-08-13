@@ -958,7 +958,13 @@ iframe{
         text-align: center;
     }
 
-    .Management-all h5, p{
+    .Management-all h5{
+        width: 94%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .Management-all p{
         width: 94%;
         padding-left: 3%;
         padding-right: 3%;
