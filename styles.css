@@ -874,6 +874,12 @@ iframe{
         flex-direction: column;
     }
 
+    .left-activity{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
     .schools{
         flex-direction: column;
         align-content: center;
