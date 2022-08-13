@@ -384,7 +384,7 @@ header{
     width: 420px;
     background-color: rgb(0, 53, 167);
     padding: 10px 10px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .mission-text{
@@ -1030,10 +1030,12 @@ iframe{
 
     .vision img{
         width: 410px;
+        padding: 10px;
     }
 
     .mission img{
         width: 410px;
+        padding: 10px;
     }
 }
 
