@@ -81,7 +81,8 @@ nav {
 header {
   background-color: #ffff;
   height: 10%;
-  position: f;
+  position: sticky;
+  width: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -460,6 +461,7 @@ header {
 
 .Management-all {
   background-color: #f2f2f2;
+  width: 100%;
 }
 
 .management1 h4 {
