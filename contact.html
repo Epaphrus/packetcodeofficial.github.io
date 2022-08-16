@@ -1,150 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/bec97e0795.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/bec97e0795.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Ruiru Mt.Hermon-Academy</title>
-    <link rel="stylesheet" href="styles.css" type="text/css">
-</head>
-<body style="margin-inline: auto;">
-    <div  id="sm-nav">     
-        <nav style="margin-top: 80px">
-            <div id="menu-close-btn" onclick="closeMenu()" style="cursor: pointer;"><i class="fa-solid fa-close"></i></div>
-            <!--Navigation content here-->
-              <ul class="nav_links" id="nav_links">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="management.html">Management</a></li>
-                    <!-- <li><a href="news & events.html">News & Events</a></li> -->
-                    <li><a href="gallery.html">Gallery</a></li>                
-                </ul>
-        </nav>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body style="margin-inline: auto">
+    <div id="sm-nav">
+      <nav style="margin-top: 80px">
+        <div id="menu-close-btn" onclick="closeMenu()" style="cursor: pointer">
+          <i class="fa-solid fa-close"></i>
+        </div>
+        <!--Navigation content here-->
+        <ul class="nav_links" id="nav_links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="management.html">Management</a></li>
+          <!-- <li><a href="news & events.html">News & Events</a></li> -->
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
     </div>
     <header class="home-header">
-        <img class="logo" src="images/RMH ACADEMY LOGO.jpeg" alt="logo">
-        <nav id="lg-nav">
-            <!--Navigation content here-->
-              <ul class="nav_links" id="nav_links">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="management.html">Management</a></li>
-                    <!-- <li><a href="news & events.html">News & Events</a></li> -->
-                    <li><a href="gallery.html">Gallery</a></li>                
-                </ul>
-        </nav>
-        
-        <a class="cta" href="contact.html"><button>Contact us</button></a>
-        <div id="menu-open-btn" onclick="openMenu()" style="cursor: pointer;"><i class="fa-solid fa-bars"></i></div>
+      <img class="logo" src="images/RMH ACADEMY LOGO.jpeg" alt="logo" />
+      <nav id="lg-nav">
+        <!--Navigation content here-->
+        <ul class="nav_links" id="nav_links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="management.html">Management</a></li>
+          <!-- <li><a href="news & events.html">News & Events</a></li> -->
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <a class="cta" href="contact.html"><button>Contact us</button></a>
+      <div id="menu-open-btn" onclick="openMenu()" style="cursor: pointer">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </header>
     <div id="contact-top-bar">
-        <h1>CONTACT US</h1>
-    </div>        
+      <h1>CONTACT US</h1>
+    </div>
     <div class="container_contact">
-        <div class="contact_details" style="text-align:center">
-            
-            <!-- <P>Leave us a message</P> -->
+      <div class="contact_details" style="text-align: center">
+        <!-- <P>Leave us a message</P> -->
+      </div>
+      <div class="row">
+        <div class="column-contact">
+          <div class="column-contact-text" id="column-contact-text">
+            <h2>Inquiry Form</h2>
+            <p>We would appreciate your feedback and enquiry</p>
+          </div>
         </div>
-        <div class="row"> 
-            <div class="column-contact">
-                <div class="column-contact-text" id="column-contact-text">
-                    <h2>Inquiry Form</h2>
-                    <p>We would appreciate your feedback and enquiry
-                    </p>
-                </div>
-            </div>         
-           <div class="form_contact" id="form_contact">
-                <form onsubmit="sendEmail(); reset(); return false;">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Your full name.." required>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Your email.." required>
-                    <label for="phone">Phone No</label>
-                    <input type="text" id="phone" placeholder="Your phone number.." required>                         
-                    <label for="subject">Subject</label>
-                    <textarea id="message" placeholder="Write something.." style="height:170px"></textarea>
-                    <button type="submit" class="submit">Submit Inquiry</button>
-                </form>
-           </div>
+        <div class="form_contact" id="form_contact">
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Your full name.."
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Your email.."
+              required
+            />
+            <label for="phone">Phone No</label>
+            <input
+              type="text"
+              id="phone"
+              placeholder="Your phone number.."
+              required
+            />
+            <label for="subject">Subject</label>
+            <textarea
+              id="message"
+              placeholder="Write something.."
+              style="height: 170px"
+            ></textarea>
+            <button type="submit" class="submit">Submit Inquiry</button>
+          </form>
         </div>
+      </div>
     </div>
     <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.00398059594!2d36.961062!3d-1.157634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMcKwMDknMjcuNSJTIDM2wrA1NyczOS44IkU!5e0!3m2!1sen!2ske!4v1660134995092!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.00398059594!2d36.961062!3d-1.157634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMcKwMDknMjcuNSJTIDM2wrA1NyczOS44IkU!5e0!3m2!1sen!2ske!4v1660134995092!5m2!1sen!2ske"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
     <footer class="footer" id="footer">
-        <div class="footer-main">
-             <div class="footer-left">
-                 <article class="footer-article">
-                     <p class="footer-article-paragraph">
-                         Ruiru Mount Hermon Academy <br>
-                         is an outstanding Nursery & <br>
-                         Primary school targeting <br>
-                         educational System, <br>
-                         helping Kids to read and <br>
-                         write and to establish <br>
-                         strong identity.
-                     </p>
-                 </article>
-             </div>
-             <div class="footer-centre">
-                 <article class="find-us">
-                     <ul>
-                        <h3>Links</h3>
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="management.html">Management</a></li>
-                        <!-- <li><a href="news & events.html">News & Events</a></li> -->
-                        <li><a href="gallery.html">Gallery</a></li>                
-                    </ul>
-                 </article>
-             </div>
-             <div class="footer-right"> 
-                <h3 >Find us</h3> 
-                    <address class="footer-address" id="footer-address">                    
-                        <a href="https://www.facebook.com/RUIRU-MOUNT-Hermon-Academy-105285892183806" class="footer-social" target="_blank"><i class="fa-brands fa-facebook"> Facebook</i></a> 
-                        <a href="" class="footer-social"><i class="fa-brands fa-twitter"> Twitter</i></a> 
-                        <a href="https://www.youtube.com/channel/UCI_Gh7j8NE06ZHZeLeH8vBA" class="footer-social" target="_blank"><i class="fa-brands fa-youtube"> Youtube</i></a>
-                        <a href="mailto:ruiruhermon@gmail.com? subject=subject text" class="footer-social"><i class="fa-solid fa-envelope"></i> Email</a> 
-                        <a href="" class="footer-social" id="fa-phone"><i class="fa-solid fa-phone"> 
-                            &nbsp; 0723 832 463 <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0726 561 933</i>
-                        </a>  
-                    </address>     
-             </div>
+      <div class="footer-main">
+        <div class="footer-left">
+          <article class="footer-article">
+            <p class="footer-article-paragraph">
+              Ruiru Mount Hermon Academy <br />
+              is an outstanding Nursery & <br />
+              Primary school targeting <br />
+              educational System, <br />
+              helping Kids to read and <br />
+              write and to establish <br />
+              strong identity.
+            </p>
+          </article>
         </div>
-        <div class="footer-bottom">
-            <div class="copyright"> <span>copyright &copy;Mount Hermon Academy <script> document.write(new Date().getFullYear()); </script> - developed by
-                <b><a href="" target="_blank"> <br> MAX designs</a></b>
-              </span>
-            </div>
+        <div class="footer-centre">
+          <article class="find-us">
+            <ul>
+              <h3>Links</h3>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="management.html">Management</a></li>
+              <!-- <li><a href="news & events.html">News & Events</a></li> -->
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </article>
         </div>
-     </footer>
-     <script defer>
-        const Menu = document.getElementById("sm-nav");
+        <div class="footer-right">
+          <h3>Find us</h3>
+          <address class="footer-address" id="footer-address">
+            <a
+              href="https://www.facebook.com/RUIRU-MOUNT-Hermon-Academy-105285892183806"
+              class="footer-social"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"> Facebook</i></a
+            >
+            <a href="" class="footer-social"
+              ><i class="fa-brands fa-twitter"> Twitter</i></a
+            >
+            <a
+              href="https://www.youtube.com/channel/UCI_Gh7j8NE06ZHZeLeH8vBA"
+              class="footer-social"
+              target="_blank"
+              ><i class="fa-brands fa-youtube"> Youtube</i></a
+            >
+            <a
+              href="mailto:ruiruhermon@gmail.com? subject=subject text"
+              class="footer-social"
+              ><i class="fa-solid fa-envelope"></i> Email</a
+            >
+            <a href="" class="footer-social" id="fa-phone"
+              ><i class="fa-solid fa-phone">
+                &nbsp; 0723 832 463 <br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0726 561 933</i
+              >
+            </a>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright">
+          <span
+            >copyright &copy;Mount Hermon Academy
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            - developed by
+            <b
+              ><a href="" target="_blank">
+                <br />
+                MAX designs</a
+              ></b
+            >
+          </span>
+        </div>
+      </div>
+    </footer>
+    <script defer>
+      const Menu = document.getElementById("sm-nav");
 
-        function openMenu () {Menu.classList.add("open")}
-        function closeMenu () {Menu.classList.remove("open")}
-    
-        
+      function openMenu() {
+        Menu.classList.add("open");
+      }
+      function closeMenu() {
+        Menu.classList.remove("open");
+      }
     </script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
-        function sendEmail(){
-            Email.send({
-                Host : "smtp.gmail.com",
-                Username : "maxwelkhadambi@gmail.com",
-                Password : "Maxwel11417",
-                To : 'maxwelkhadambi@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : "New inquiry form",
-                Body : "Name: " + document.getElementById("name").value
-                    + "<br> Email: " + document.getElementById("email").value
-                    + "<br> Phone no: " + document.getElementById("phone").value
-                    + "<br> Message: " + document.getElementById("message").value
-            }).then(
-              message => alert("Message sent succesfully")
-            );
-        } 
+      async function sendEmail() {
+        try {
+          const res = await Email.send({
+            Host: "smtp.gmail.com",
+            Username: "maxwelkhadambi@gmail.com",
+            Password: "Maxwel11417",
+            To: "maxwelkhadambi@gmail.com",
+            From: document.getElementById("email").value,
+            Subject: "New inquiry form",
+            Body:
+              "Name: " +
+              document.getElementById("name").value +
+              "<br> Email: " +
+              document.getElementById("email").value +
+              "<br> Phone no: " +
+              document.getElementById("phone").value +
+              "<br> Message: " +
+              document.getElementById("message").value,
+          });
+          if (res) {
+            alert("Message sent succesfuly");
+            console.log(res);
+          } else {
+            console.log("Error: " + res);
+          }
+        } catch (error) {
+          console.log("ERROR: " + error);
+        }
+      }
     </script>
-</body>
+  </body>
 </html>
