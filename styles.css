@@ -1032,6 +1032,10 @@ iframe {
   .hero-image {
     height: 25%;
   }
+
+  #sm-nav.open {
+    position: fixed;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -1056,6 +1060,10 @@ iframe {
   .mission img {
     width: 410px;
     padding: 10px;
+  }
+
+  #sm-nav.open {
+    position: fixed;
   }
 }
 
