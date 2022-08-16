@@ -693,7 +693,7 @@ textarea {
   margin-bottom: 16px;
 }
 
-input[type="submit"] {
+.submit {
   background-color: #344ee0;
   color: white;
   padding: 12px 20px;
@@ -702,10 +702,19 @@ input[type="submit"] {
   border-radius: 100px;
 }
 
-input[type="submit"]:hover {
+.submit :hover {
   opacity: 0.8;
 }
 
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
 /* Style the container/contact section*/
 #contact-top-bar {
   display: flex;
@@ -790,8 +799,7 @@ iframe {
 }
 
 @media screen and (max-width: 821.5px) {
-  .column,
-  input[type="submit"] {
+  .submit {
     width: 100%;
     height: 50px;
     margin-top: 0;
