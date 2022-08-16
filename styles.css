@@ -828,6 +828,7 @@ iframe {
 
   #sm-nav.open {
     width: 100%;
+    position: fixed;
   }
 
   #sm-nav ul {
