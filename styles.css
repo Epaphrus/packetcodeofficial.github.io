@@ -277,6 +277,7 @@ header {
   padding-right: 5%;
   margin-bottom: 30px;
   text-align: center;
+  font-size: 15px;
 }
 
 .find-us ul {
@@ -715,6 +716,7 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
 }
+
 /* Style the container/contact section*/
 #contact-top-bar {
   display: flex;
