@@ -1,0 +1,87 @@
+body {
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+section {
+  background-color: rgb(154, 138, 241);
+  font-family: "docs-Roboto", Helvetica, Arial, sans-serif;
+  padding: 2%;
+  padding-bottom: 10%;
+}
+
+header {
+  text-align: center;
+}
+
+header h2 {
+  color: #0a035c;
+}
+
+header h3 {
+  color: #0a035c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #0035db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 25%;
+  font-size: large;
+}
+
+.copyright {
+  background-color: #1c2c5c;
+  height: 100%;
+  color: #446be1;
+  font-family: "Montserrat", sans-serif;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(211, 211, 211, 0.39);
+}
+
+@media screen and (max-width: 799px) {
+  body {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  header h2 {
+    font-size: 120%;
+  }
+
+  button {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
