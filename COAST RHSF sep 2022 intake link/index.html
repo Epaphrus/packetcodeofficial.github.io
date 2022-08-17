@@ -14,13 +14,24 @@
         <h3>2022 SEPTEMBER INTAKE</h3>
         <h3>COAST REGION RHSF</h3>
       </header>
-      <form action="" id="form">
+      <form
+        action="https://sheetdb.io/api/v1/75wx9pzf4z9sm"
+        method="post"
+        id="sheetdb-form"
+      >
         <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Your full name" required />
+        <input
+          type="text"
+          id="name"
+          name="data[name]"
+          placeholder="Your full name"
+          required
+        />
         <label for="phone">Phone No</label>
         <input
           type="text"
           id="phone"
+          name="data[phone]"
           placeholder="Enter your phone number"
           required
         />
@@ -28,13 +39,20 @@
         <input
           type="text"
           id="region"
+          name="data[region]"
           placeholder="Region of your altar e.g Nairobi"
         />
         <label for="altar">Altar</label>
-        <input type="text" placeholder="Your altar e.g Yaya altar" id="altar" />
+        <input
+          type="text"
+          name="data[altar]"
+          placeholder="Your altar e.g Yaya altar"
+          id="altar"
+        />
         <label for="course">Course</label>
         <input
           type="text"
+          name="data[course]"
           placeholder="Yourse course e.g Computer science"
           id="course"
         />
@@ -43,6 +61,7 @@
           type="text"
           placeholder="e.g Masters, Degree, Certificate ..."
           id="course-level"
+          name="data[course-level]"
         />
         <button>Submit</button>
       </form>
@@ -64,5 +83,20 @@
         </span>
       </div>
     </footer>
+    <script>
+      var form = document.getElementById("sheetdb-form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(form.action, {
+          method: "POST",
+          body: new FormData(document.getElementById("sheetdb-form")),
+        })
+          .then((response) => response.json())
+          .then((html) => {
+            // you can put any JS code here
+            window.open("page2.html", "_blank");
+          });
+      });
+    </script>
   </body>
 </html>
