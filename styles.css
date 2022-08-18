@@ -843,9 +843,9 @@ iframe {
 
   #home-activities {
     flex-direction: column;
-    width: 96%;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 
   #our-activities-text {
@@ -1028,7 +1028,7 @@ iframe {
 
 @media screen and (max-width: 552px) {
   .intro-text {
-    font-size: 165%;
+    font-size: 162%;
   }
 
   .hero-image {
@@ -1066,6 +1066,18 @@ iframe {
 
   #sm-nav.open {
     position: fixed;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .intro-text {
+    font-size: 140%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro-text {
+    font-size: 116%;
   }
 }
 
