@@ -150,6 +150,7 @@ header {
   width: 97%;
   margin-left: 1.5%;
   margin-right: 1.5%;
+  justify-content: center;
 }
 
 #home-activities > div {
@@ -182,10 +183,6 @@ header {
 }
 
 @media (max-width: 1104px) {
-  #home-activities > div {
-    flex-direction: column;
-  }
-
   #home-activities img {
     min-width: 95%;
     margin-left: 1.5%;
@@ -933,7 +930,6 @@ iframe {
     flex-direction: column;
     align-content: center;
     margin-left: 10%;
-    /* display: block; */
   }
 
   .schools img {
