@@ -108,14 +108,14 @@ header {
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/class.png");
-  height: 50%;
+  height: 300px;
   width: 99%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   margin-left: 0.5%;
-  margin-right: 00.5%;
+  margin-right: 0.5%;
 }
 
 /*------Our Activities----------*/
