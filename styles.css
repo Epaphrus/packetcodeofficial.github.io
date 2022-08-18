@@ -374,7 +374,7 @@ header {
 }
 
 #About_us_text {
-  width: 94%;
+  width: 90%;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 2em;
@@ -1030,6 +1030,7 @@ iframe {
   }
 
   .Management-text {
+    font-size: 1em;
     width: 100%;
     margin-top: 10px;
   }
@@ -1043,6 +1044,7 @@ iframe {
   }
 
   .muthii-text {
+    font-size: 1em;
     width: 100%;
     margin-bottom: 0px;
   }
@@ -1069,6 +1071,7 @@ iframe {
 
   .school-adminstrator-text {
     width: 100%;
+    font-size: 1em;
   }
 
   .school-adminstrator-text h5 {
@@ -1084,6 +1087,10 @@ iframe {
   .hero-image {
     height: 30%;
   }
+
+  #About_us_text p {
+    font-size: 1em;
+  }
 }
 
 @media screen and (max-width: 552px) {
@@ -1097,6 +1104,10 @@ iframe {
 
   #sm-nav.open {
     position: fixed;
+  }
+
+  #About_us_text p {
+    font-size: 1em;
   }
 }
 
@@ -1126,6 +1137,10 @@ iframe {
 
   #sm-nav.open {
     position: fixed;
+  }
+
+  #About_us_text p {
+    font-size: 1em;
   }
 }
 
