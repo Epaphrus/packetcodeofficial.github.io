@@ -71,7 +71,7 @@ nav {
 
 header {
   background-color: #ffff;
-  height: 10%;
+  height: 15%;
   position: sticky;
   width: 100%;
   top: 0;
@@ -91,7 +91,7 @@ header {
   text-align: center;
   color: white;
   transform: translate(-50, -50);
-  font-size: 400%;
+  font-size: 300%;
   padding-top: 20px;
   width: 98%;
   padding-left: 1%;
