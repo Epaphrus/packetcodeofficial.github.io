@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-body {
-  width: 100%;
-}
-
 li,
 a,
 button {
@@ -858,6 +854,11 @@ iframe {
   .logo {
     max-width: 50px;
     max-height: 50px;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
   }
 
   #lg-nav {
