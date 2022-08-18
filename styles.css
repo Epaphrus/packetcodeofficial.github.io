@@ -72,7 +72,7 @@ nav {
 header {
   background-color: #ffff;
   height: 10%;
-  position: sticky;
+  position: -webkit-sticky;
   width: 100%;
   top: 0;
   left: 0;
@@ -99,7 +99,7 @@ header {
 }
 
 .intro-text p {
-  font-size: 150%;
+  font-size: 140%;
   margin-top: 2rem;
   width: 96%;
   text-align: center;
@@ -134,8 +134,8 @@ header {
 #home-activities {
   display: flex;
   width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   justify-content: center;
 }
 
