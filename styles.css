@@ -886,7 +886,7 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 50px;
   }
 
   #home-activities {
@@ -1081,9 +1081,6 @@ iframe {
 }
 
 @media screen and (max-width: 834px) {
-  .intro-text {
-  }
-
   .hero-image {
     height: 30%;
   }
