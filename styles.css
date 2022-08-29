@@ -158,8 +158,9 @@ header {
 
 #home-activities > div > div {
   flex: 1;
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 94%;
+  padding-left: 3%;
+  padding-right: 5%;
 }
 
 #home-activities > div > div > p {
@@ -208,10 +209,11 @@ header {
 } */
 
 #our-activities-text {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 100%;
   justify-content: center;
+  line-height: 1.5em;
+  letter-spacing: 2px;
 }
 
 /* .right-activity img {
@@ -898,7 +900,6 @@ iframe {
 
   #our-activities-text {
     padding-top: 20px;
-    padding-left: 20px;
   }
 
   .hero-image {
