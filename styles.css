@@ -160,7 +160,7 @@ header {
   flex: 1;
   width: 94%;
   padding-left: 3%;
-  padding-right: 5%;
+  padding-right: 3%;
 }
 
 #home-activities > div > div > p {
@@ -387,7 +387,7 @@ header {
 #About_us_text h3 {
   color: rgb(0, 53, 167);
   font-size: 50px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   margin-bottom: 15px;
 }
 
