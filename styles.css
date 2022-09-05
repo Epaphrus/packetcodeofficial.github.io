@@ -77,6 +77,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 15;
 }
 
 /*-------Hero section-------*/
@@ -116,6 +117,7 @@ header {
   position: relative;
   margin-left: 0.5%;
   margin-right: 0.5%;
+  z-index: 0;
 }
 
 /*------Our Activities----------*/
