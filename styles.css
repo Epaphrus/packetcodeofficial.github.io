@@ -857,8 +857,8 @@ iframe {
     max-height: 50px;
   }
 
-  .header {
-    position: fixed;
+  header {
+    position: relative;
     top: 0;
   }
 
