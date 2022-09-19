@@ -443,8 +443,9 @@ header {
   font-size: 1.2em;
   /*text-transform: capitalize;*/
   margin-bottom: 25px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-bottom: 45px;
+  line-height: 28px;
 }
 
 .vision {
@@ -483,8 +484,9 @@ header {
   font-size: 1.2em;
   /*text-transform: capitalize;*/
   margin-bottom: 25px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-bottom: 45px;
+  line-height: 28px;
 }
 
 /*-------End of About page------*/
@@ -991,8 +993,8 @@ iframe {
   }
 
   .mission-text p {
-    font-size: 1em;
-    padding-top: 5px;
+    font-size: 1.2em;
+    padding-top: 15px;
   }
 
   .vision {
@@ -1007,8 +1009,8 @@ iframe {
   }
 
   .vision-text p {
-    font-size: 1em;
-    padding-top: 5px;
+    font-size: 1.2em;
+    padding-top: 15px;
   }
 
   .the-founders {
