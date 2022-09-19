@@ -72,7 +72,7 @@ nav {
 header {
   background-color: #ffff;
   height: 10%;
-  position: sticky;
+  position: relative;
   width: 100%;
   top: 0;
   left: 0;
@@ -858,7 +858,7 @@ iframe {
   }
 
   header {
-    position: relative;
+    position: sticky;
     top: 0;
   }
 
