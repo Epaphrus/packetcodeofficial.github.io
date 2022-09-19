@@ -110,7 +110,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/class.png");
   height: 300px;
-  width: 99%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -904,7 +904,7 @@ iframe {
 
   .hero-image {
     height: 30%;
-    width: 99%;
+    width: 100%;
   }
 
   .intro-text p {
