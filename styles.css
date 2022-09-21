@@ -86,30 +86,36 @@ header {
   width: 96%;
   margin: 2rem auto --6rem;
 }
-
+.hero-text {
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
 .intro-text {
-  font-family: "Poppins", sans-serif;
+  font-family: "Mulish", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
   text-align: center;
   color: white;
   transform: translate(-50, -50);
   font-size: 200%;
   padding-top: 20px;
-  width: 98%;
-  padding-left: 1%;
-  padding-right: 1%;
+  width: 100%;
+  margin: auto;
 }
-
+.intro-text h1 {
+  font-size: 250%;
+  font-weight: bolder;
+}
 .intro-text p {
-  font-size: 140%;
+  font-size: 300%;
   margin-top: 2rem;
-  width: 96%;
-  text-align: center;
+  width: 100%;
 }
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/herot.jpg");
-  height: 300px;
+  height: 80vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -903,16 +909,18 @@ iframe {
   }
 
   .hero-image {
-    height: 30%;
+    height: 40%;
     width: 100%;
   }
-
   .intro-text p {
     margin-top: 1rem;
   }
 
-  .intro-text {
-    font-size: 230%;
+  .intro-text h1 {
+    font-size: 170%;
+  }
+  .intro-text p {
+    font-size: 150%;
   }
 
   .right-activity {
@@ -1097,21 +1105,29 @@ iframe {
 
 @media screen and (max-width: 834px) {
   .hero-image {
-    height: 30%;
+    height: 40%;
   }
 
   #About_us_text p {
     font-size: 1em;
   }
+  .intro-text h1 {
+    font-size: 170%;
+  }
+  .intro-text p {
+    font-size: 150%;
+  }
 }
 
 @media screen and (max-width: 552px) {
-  .intro-text {
-    font-size: 162%;
+  .intro-text h1 {
+    font-size: 170%;
   }
-
+  .intro-text p {
+    font-size: 150%;
+  }
   .hero-image {
-    height: 25%;
+    height: 30%;
   }
 
   #sm-nav.open {
@@ -1125,13 +1141,14 @@ iframe {
 
 @media screen and (max-width: 420px) {
   .hero-image {
-    height: 30%;
+    height: 40%;
   }
-
-  .intro-text {
+  .intro-text h1 {
+    font-size: 170%;
+  }
+  .intro-text p {
     font-size: 150%;
   }
-
   .left-activity img {
     height: 100%;
     width: 100%;
@@ -1157,8 +1174,11 @@ iframe {
 }
 
 @media screen and (max-width: 375px) {
-  .intro-text {
-    font-size: 140%;
+  .intro-text h1 {
+    font-size: 170%;
+  }
+  .intro-text p {
+    font-size: 150%;
   }
 }
 
@@ -1166,6 +1186,12 @@ iframe {
   .intro-text {
     font-size: 112%;
     padding-bottom: 10px;
+  }
+  .intro-text h1 {
+    font-size: 170%;
+  }
+  .intro-text p {
+    font-size: 150%;
   }
 }
 
