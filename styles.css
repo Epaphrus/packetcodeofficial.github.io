@@ -5,7 +5,9 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 li,
 a,
 button {
@@ -172,7 +174,8 @@ header {
 
 #home-activities > div > div > p {
   letter-spacing: 1px;
-  font-size: 1em;
+  line-height: 28px;
+  font-size: 1.2em;
   padding-top: 10px;
   margin-bottom: 20px;
 }
@@ -1175,10 +1178,10 @@ iframe {
 
 @media screen and (max-width: 375px) {
   .intro-text h1 {
-    font-size: 170%;
+    font-size: 130%;
   }
   .intro-text p {
-    font-size: 150%;
+    font-size: 120%;
   }
 }
 
