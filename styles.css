@@ -1124,10 +1124,10 @@ iframe {
 
 @media screen and (max-width: 552px) {
   .intro-text h1 {
-    font-size: 170%;
+    font-size: 120%;
   }
   .intro-text p {
-    font-size: 150%;
+    font-size: 100%;
   }
   .hero-image {
     height: 30%;
@@ -1191,7 +1191,7 @@ iframe {
     padding-bottom: 10px;
   }
   .intro-text h1 {
-    font-size: 170%;
+    font-size: 150%;
   }
   .intro-text p {
     font-size: 150%;
