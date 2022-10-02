@@ -1147,10 +1147,10 @@ iframe {
     height: 40%;
   }
   .intro-text h1 {
-    font-size: 170%;
+    font-size: 120%;
   }
   .intro-text p {
-    font-size: 150%;
+    font-size: 109%;
   }
   .left-activity img {
     height: 100%;
@@ -1178,10 +1178,10 @@ iframe {
 
 @media screen and (max-width: 375px) {
   .intro-text h1 {
-    font-size: 130%;
+    font-size: 105%;
   }
   .intro-text p {
-    font-size: 120%;
+    font-size: 105%;
   }
 }
 
