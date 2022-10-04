@@ -916,7 +916,7 @@ iframe {
     width: 100%;
   }
   .intro-text p {
-    margin-top: 1rem;
+    margin-top: 15%;
   }
 
   .intro-text h1 {
@@ -1181,7 +1181,7 @@ iframe {
     font-size: 105%;
   }
   .intro-text p {
-    font-size: 105%;
+    font-size: 90%;
   }
 }
 
