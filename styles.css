@@ -110,7 +110,7 @@ header {
 }
 .intro-text p {
   font-size: 300%;
-  margin-top: 2rem;
+  margin-top: 5rem;
   width: 100%;
 }
 
@@ -260,13 +260,10 @@ header {
 .schools {
   font-family: "Poppins", sans-serif;
   padding-top: 5px;
-  width: 90%;
   display: flex;
   margin-left: 5%;
-  padding-right: 5%;
   justify-content: center;
 }
-
 .schools img {
   width: 80%;
   height: auto;
@@ -854,7 +851,12 @@ iframe {
   width: 99%;
   height: 30vh;
 }
-
+/*@media screen and (min-width: 821.5px) {
+  #sm-nav {
+    overflow: hidden;
+    display: hidden;
+  }
+}*/
 @media screen and (max-width: 821.5px) {
   .submit {
     width: 100%;
