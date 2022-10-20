@@ -258,10 +258,12 @@ header {
 }
 
 .schools {
+  width: 100%;
   font-family: "Poppins", sans-serif;
-  padding-top: 5px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin: 20px;
+  align-items: center;
 }
 .schools p {
   font-family: "Montserrat", sans-serif;
@@ -274,8 +276,6 @@ header {
   width: 80%;
   height: auto;
   border-radius: 50%;
-  /* padding-left: 10%; */
-  /* padding-right: 10%; */
 }
 
 /*--------FOOTER SECTION-------*/
@@ -943,7 +943,6 @@ iframe {
 
   .schools {
     flex-direction: column;
-    padding: 20px;
   }
 
   .schools img {
