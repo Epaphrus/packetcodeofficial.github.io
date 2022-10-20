@@ -72,7 +72,7 @@ nav {
 }
 
 header {
-  background-color: #ffff;
+  background-color: #f7f7f7;
   height: 10%;
   position: sticky;
   width: 100%;
@@ -128,7 +128,7 @@ header {
 
 /*------Our Activities----------*/
 #our-activities {
-  background-color: #f2f2f2;
+  background-color: #f7f7f7;
   padding-top: 20px;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 20px;
@@ -261,8 +261,14 @@ header {
   font-family: "Poppins", sans-serif;
   padding-top: 5px;
   display: flex;
-  margin-left: 5%;
   justify-content: center;
+}
+.schools p {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  letter-spacing: 1px;
+  line-height: 28px;
+  width: 100%;
 }
 .schools img {
   width: 80%;
@@ -279,14 +285,13 @@ header {
   font-size: 1.2em;
   line-height: 28px;
   font-family: "Montserrat", sans-serif;
+  background-color: #f7f7f7;
 }
 
 .footer-main {
   display: flex;
-  padding-top: 15px;
-  width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 15px;
+
   justify-content: space-evenly;
 }
 
@@ -312,7 +317,8 @@ header {
 
 .footer-bottom {
   padding-top: 20px;
-  border-top: 1px solid rgba(211, 211, 211, 0.39);
+  border-top: 1px solid #cfe6fd;
+  background-color: #edf4fb;
 }
 
 /*
@@ -325,12 +331,10 @@ header {
 .copyright {
   color: #555555;
   font-family: "Montserrat", sans-serif;
-  width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-bottom: 30px;
   text-align: center;
   font-size: 15px;
+  text-align: center;
+  padding: 20px;
 }
 
 .find-us ul {
@@ -364,7 +368,7 @@ header {
 }
 
 .About-us-main {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 
 #about-us {
@@ -506,7 +510,7 @@ header {
 }
 
 .Management-all {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   width: 100%;
 }
 
@@ -694,13 +698,13 @@ header {
 }
 
 #main-gallery-container {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 
 .gallery-container {
   max-width: 85%;
-  margin: 20px auto;
-  padding-bottom: 3%;
+  margin: 0px auto;
+  padding-top: 10px;
 }
 
 .gallery-container .image-container {
@@ -788,7 +792,7 @@ textarea {
 .container_contact {
   padding-top: 30px;
   border-radius: 10px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 10px;
 }
 
@@ -904,9 +908,6 @@ iframe {
 
   #home-activities {
     flex-direction: column;
-    width: 97%;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
   }
 
   #our-activities-text {
@@ -942,16 +943,14 @@ iframe {
 
   .schools {
     flex-direction: column;
-    align-content: center;
-    margin-left: 10%;
+    padding: 20px;
   }
 
   .schools img {
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 90%;
-    border-radius: 0%;
+    width: 100%;
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   #schools-main h4 {
@@ -990,12 +989,16 @@ iframe {
     display: flex;
     flex-direction: column;
     padding-bottom: 0;
+    background-color: #7284e9;
   }
 
   .mission {
     flex-direction: column;
     width: 100%;
     margin-bottom: 0;
+  }
+  .mission img {
+    background-color: #7284e9;
   }
 
   .mission-text {
@@ -1005,23 +1008,27 @@ iframe {
 
   .mission-text p {
     font-size: 1.2em;
-    padding-top: 15px;
+    text-align: center;
+    color: #ffffff;
   }
 
   .vision {
     flex-direction: column;
     width: 100%;
   }
+  .vision img {
+    background-color: #7284e9;
+  }
 
   .vision-text {
-    text-align: left;
+    text-align: center;
     width: 100%;
-    margin-bottom: 0;
   }
 
   .vision-text p {
     font-size: 1.2em;
     padding-top: 15px;
+    color: #ffffff;
   }
 
   .the-founders {
@@ -1160,12 +1167,12 @@ iframe {
   }
 
   .vision img {
-    width: 410px;
+    width: 100%;
     padding: 10px;
   }
 
   .mission img {
-    width: 410px;
+    width: 100%;
     padding: 10px;
   }
 
