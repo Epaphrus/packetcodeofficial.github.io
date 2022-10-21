@@ -1000,16 +1000,18 @@ iframe {
     display: flex;
     flex-direction: column;
     padding-bottom: 0;
-    background-color: #7284e9;
+    /*background-color: #7284e9;*/
   }
-
+  #vision_mission_main > div {
+    border-top: 1px solid #344ee0;
+  }
   .mission {
     flex-direction: column;
     width: 100%;
     margin-bottom: 0;
   }
   .mission img {
-    background-color: #7284e9;
+    background-color: #ffffff;
   }
 
   .mission-text {
@@ -1020,7 +1022,7 @@ iframe {
   .mission-text p {
     font-size: 1.2em;
     text-align: center;
-    color: #ffffff;
+    color: #2c3333;
   }
 
   .vision {
@@ -1028,7 +1030,7 @@ iframe {
     width: 100%;
   }
   .vision img {
-    background-color: #7284e9;
+    background-color: #ffffff;
   }
 
   .vision-text {
@@ -1039,7 +1041,7 @@ iframe {
   .vision-text p {
     font-size: 1.2em;
     padding-top: 15px;
-    color: #ffffff;
+    color: #2c3333;
   }
 
   .the-founders {
