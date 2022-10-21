@@ -263,6 +263,12 @@ header {
   margin-right: 20px;
   align-items: center;
 }
+.schools > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 
 .schools p {
   font-family: "Montserrat", sans-serif;
@@ -273,8 +279,8 @@ header {
   padding: 10px;
 }
 .schools img {
-  width: 80%;
-  height: auto;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 
