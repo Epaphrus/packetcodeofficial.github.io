@@ -128,16 +128,18 @@ header {
 
 /*------Our Activities----------*/
 #our-activities {
-  background-color: #f7f7f7;
-  padding-top: 20px;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 20px;
+  border-top: 2px solid #f7f7f7;
 }
 
 #our-activities h2 {
   font-weight: 750;
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  color: #373b92;
+  text-align: center;
 }
 
 /* #home-activities {
@@ -183,10 +185,6 @@ header {
 #home-activities img {
   flex: 1;
   max-width: 290px;
-}
-#our-activities h2 {
-  color: #373b92;
-  text-align: center;
 }
 
 @media (max-width: 1104px) {
@@ -237,7 +235,6 @@ header {
   background-color: #ffffff;
   /* border-top: 1px solid #373c9210; */
   /* border-bottom: 1px solid #373c9210; */
-  padding-bottom: 30px;
 }
 
 #schools-main h2 {
@@ -258,19 +255,22 @@ header {
 }
 
 .schools {
-  width: 100%;
+  width: fit-content;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: space-evenly;
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   align-items: center;
 }
+
 .schools p {
   font-family: "Montserrat", sans-serif;
   color: black;
   letter-spacing: 1px;
   line-height: 28px;
   width: 100%;
+  padding: 10px;
 }
 .schools img {
   width: 80%;
@@ -909,6 +909,9 @@ iframe {
   #home-activities {
     flex-direction: column;
   }
+  #our-activities {
+    border-top: none;
+  }
 
   #our-activities-text {
     padding-top: 20px;
@@ -944,7 +947,10 @@ iframe {
   .schools {
     flex-direction: column;
   }
-
+  .schools > div {
+    padding-top: 20px;
+    border-bottom: 2px solid #f7f7f7;
+  }
   .schools img {
     width: 100%;
     display: flex;
