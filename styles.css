@@ -94,6 +94,7 @@ header {
   padding-bottom: 4%;
 }
 .intro-text {
+  /* font-family: "Montserrat", sans-serif;*/
   font-family: "Mulish", sans-serif;
   /*font-family: "Poppins", sans-serif;*/
   text-align: center;
@@ -109,8 +110,8 @@ header {
   font-weight: bolder;
 }
 .intro-text p {
-  font-size: 300%;
-  margin-top: 5rem;
+  font-size: 200%;
+  margin-top: 10rem;
   width: 100%;
 }
 
@@ -958,18 +959,9 @@ iframe {
     border-bottom: 2px solid #f7f7f7;
   }
   .schools img {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  #schools-main h4 {
-    width: 80%;
-    padding-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    margin-left: 10%;
   }
 
   .footer-main {
