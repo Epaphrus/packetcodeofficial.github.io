@@ -178,9 +178,8 @@ header {
 #home-activities > div > div > p {
   letter-spacing: 1px;
   line-height: 28px;
-  font-size: 1.2em;
+  /*font-size: 1.2em;*/
   padding-top: 10px;
-  margin-bottom: 20px;
 }
 
 #home-activities img {
@@ -191,10 +190,8 @@ header {
 @media (max-width: 1104px) {
   #home-activities img {
     min-width: 95%;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
     transition: 0.5s ease-in-out;
-    width: 97%;
+    padding: 10px;
   }
 }
 
@@ -915,6 +912,14 @@ iframe {
 
   #home-activities {
     flex-direction: column;
+  }
+  #home-activities img {
+    max-width: 100%;
+    width: 100%;
+  }
+  #home-activities > div > div {
+    margin: 10px;
+    padding: 0;
   }
   #our-activities {
     border-top: none;
