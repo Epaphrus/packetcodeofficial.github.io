@@ -94,9 +94,9 @@ header {
   padding-bottom: 4%;
 }
 .intro-text {
-  /* font-family: "Montserrat", sans-serif;*/
-  font-family: "Mulish", sans-serif;
-  /*font-family: "Poppins", sans-serif;*/
+  /* font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;*/
+  font-family: "Poppins", sans-serif;
   text-align: center;
   color: white;
   transform: translate(-50, -50);
@@ -106,8 +106,7 @@ header {
   margin: auto;
 }
 .intro-text h1 {
-  font-size: 250%;
-  font-weight: bolder;
+  font-size: 96px;
 }
 .intro-text p {
   font-size: 200%;
@@ -137,8 +136,7 @@ header {
 #our-activities h2 {
   font-weight: 750;
   font-size: 30px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding: 20px 0;
   text-align: center;
   color: #373b92;
 }
@@ -155,9 +153,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 97%;
-  margin-left: 1.5%;
-  margin-right: 1.5%;
+  padding: 0 1.5%;
   justify-content: center;
 }
 
@@ -241,8 +237,7 @@ header {
   font-family: "Montserrat", sans-serif;
   font-weight: 750;
   font-size: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 20px 0px;
 }
 
 #schools-main h4 {
@@ -257,9 +252,7 @@ header {
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: space-evenly;
-  margin-left: 20px;
-  margin-right: 20px;
-  align-items: center;
+  padding: 0px 20px;
 }
 .schools > div {
   display: flex;
